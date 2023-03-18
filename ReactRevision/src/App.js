@@ -3,6 +3,9 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import CHeader from './components/CHeader';
+import Channel from './components/Channel';
+import FunctionClick from './components/FunctionClick';
+import CFunctionClick from './components/CFunctionClick';
 
 // class component
 class App extends React.Component {
@@ -13,11 +16,14 @@ class App extends React.Component {
           <p>Aman is a good boy</p>
         </Header>
         <Header name="Saket" last="Kumar">
-          <a href=''>Click me</a>
+          <a href='https://legacy.reactjs.org/docs/getting-started.html'>Click me</a>
         </Header>
         <Header name="Sunny" last="Singh"/>
 
         <CHeader name="Prithvi" last="Raj"/>
+        <Channel />
+        <FunctionClick />
+        <CFunctionClick />
       </div>
     )
   }
