@@ -2,15 +2,17 @@ import React from 'react'
 
 function FunctionClick() {
 
-    function changeEvent() {
+    function changeEvent(e) {
+        e.preventDefault();
         console.log("Hello Event Handling...");
     }
 
     return (
-        <div>
+        <React.Fragment>
             <h1>Hello fuctionClick</h1>
             <button onClick={changeEvent}>Click me</button>
-        </div>
+            <a href='https://www.amazon.in/' onClick={changeEvent}>Anchor me</a>
+        </React.Fragment>
     )
 }
 

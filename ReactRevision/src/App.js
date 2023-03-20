@@ -23,7 +23,7 @@ class App extends React.Component {
         <CHeader name="Prithvi" last="Raj"/>
         <Channel />
         <FunctionClick />
-        <CFunctionClick />
+        <CFunctionClick roll="22"/>
       </div>
     )
   }
