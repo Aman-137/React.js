@@ -10,6 +10,8 @@ import CFunctionClick from './components/CFunctionClick';
 // class component
 class App extends React.Component {
   render() {
+    const numbers = [3, 4, 5, 6];
+
     return (
       <div className='App'>
         <Header name="Aman" last="Kumar">
@@ -23,7 +25,7 @@ class App extends React.Component {
         <CHeader name="Prithvi" last="Raj"/>
         <Channel />
         <FunctionClick />
-        <CFunctionClick roll="22"/>
+        <CFunctionClick roll="22" numbers={numbers}/>
       </div>
     )
   }

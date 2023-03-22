@@ -22,19 +22,22 @@ class CFunctionClick extends Component {
     }
 
     render() {
-      const numbers = [3, 4, 5, 6];
-      const newNumbers = numbers.map(function(numbers) {
-        console.log(numbers);
-        return <li>{numbers}</li>
-      })
-      console.log(newNumbers);
+      const numbers = this.props.numbers;
+      //const newNumbers = numbers.map((numbers) => {return <li>{numbers}</li>});
+        //console.log(numbers);
+        
+      //console.log(newNumbers);
 
     return (
       <div>
         <h1>Class Function click</h1>
         <button onClick={this.changeEvent2}>Hit me</button>
         {this.props.roll}
-        <ul>{newNumbers}</ul>
+        <ul>
+          {
+            numbers.map((numbers) => <li>{numbers}</li>)
+          }
+        </ul>
       </div>
     )
   }
