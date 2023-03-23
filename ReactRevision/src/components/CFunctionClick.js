@@ -35,7 +35,7 @@ class CFunctionClick extends Component {
         {this.props.roll}
         <ul>
           {
-            numbers.map((numbers) => <li>{numbers}</li>)
+            numbers.map((numbers) => <li key={numbers}>{numbers}</li>)
           }
         </ul>
       </div>

@@ -6,6 +6,10 @@ import CHeader from './components/CHeader';
 import Channel from './components/Channel';
 import FunctionClick from './components/FunctionClick';
 import CFunctionClick from './components/CFunctionClick';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appstyle.css';
+import Style from './appstyle.module.css';
 
 // class component
 class App extends React.Component {
@@ -14,7 +18,11 @@ class App extends React.Component {
 
     return (
       <div className='App'>
-        <Header name="Aman" last="Kumar">
+
+        <h1 className={Style.success}>Green</h1>
+        <h1 className='error'>Error</h1>
+        
+         {/* <Header name="Aman" last="Kumar">
           <p>Aman is a good boy</p>
         </Header>
         <Header name="Saket" last="Kumar">
@@ -25,8 +33,12 @@ class App extends React.Component {
         <CHeader name="Prithvi" last="Raj"/>
         <Channel />
         <FunctionClick />
-        <CFunctionClick roll="22" numbers={numbers}/>
+        <CFunctionClick roll="22" numbers={numbers}/> */}
+        <Stylesheet isvalue={false}></Stylesheet>
+        <Inline />
+      
       </div>
+
     )
   }
 }
