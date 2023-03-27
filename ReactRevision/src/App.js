@@ -12,6 +12,8 @@ import './appstyle.css';
 import Style from './appstyle.module.css';
 import Form from './components/Form';
 import Routing from './components/Routing';
+import LifeCycleA from './components/LifeCycleA';
+import Product from './components/Product';
 
 
 // class component
@@ -39,9 +41,12 @@ class App extends React.Component {
         <FunctionClick />
         <CFunctionClick roll="22" numbers={numbers}/> 
         <Stylesheet isvalue={false}></Stylesheet>
-        <Inline />*/}
+        <Inline />
         <Form />
         <Routing />
+
+        <LifeCycleA />*/}
+        <Product />
       
       </div>
 
