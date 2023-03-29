@@ -15,6 +15,7 @@ import Routing from './components/Routing';
 import LifeCycleA from './components/LifeCycleA';
 import Product from './components/Product';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 // class component
 class App extends React.Component {
@@ -46,9 +47,11 @@ class App extends React.Component {
         <Routing />
 
         <LifeCycleA />
-        <Product />*/}
+        <Product />
 
-        <PostList />
+        <PostList />*/}
+
+        <PostForm />
       
       </div>
 
