@@ -16,6 +16,9 @@ import LifeCycleA from './components/LifeCycleA';
 import Product from './components/Product';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
+import Counter from './components/Counter';
+import HookCounter from './components/HookCounter';
+import FCounter from './components/FCounter';
 
 // class component
 class App extends React.Component {
@@ -49,9 +52,13 @@ class App extends React.Component {
         <LifeCycleA />
         <Product />
 
-        <PostList />*/}
+        <PostList />
 
-        <PostForm />
+        <PostForm />*/}
+
+        <Counter />
+        <HookCounter />
+        <FCounter />
       
       </div>
 
