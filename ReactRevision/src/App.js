@@ -19,6 +19,7 @@ import PostForm from './components/PostForm';
 import Counter from './components/Counter';
 import HookCounter from './components/HookCounter';
 import FCounter from './components/FCounter';
+import HookObject from './components/HookObject';
 
 // class component
 class App extends React.Component {
@@ -57,8 +58,9 @@ class App extends React.Component {
         <PostForm />
 
         <Counter />
-        <FCounter />*/}
-        <HookCounter />
+        <FCounter />
+        <HookCounter />*/}
+        <HookObject />
       
       </div>
 
