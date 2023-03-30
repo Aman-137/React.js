@@ -54,11 +54,11 @@ class App extends React.Component {
 
         <PostList />
 
-        <PostForm />*/}
+        <PostForm />
 
         <Counter />
+        <FCounter />*/}
         <HookCounter />
-        <FCounter />
       
       </div>
 
