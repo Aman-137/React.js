@@ -4,19 +4,18 @@ const HookObject = () => {
 
     const [name, setName] = useState({firstName:'', lastName:''});
 
-    // const handleChange = (e) => {
-    //     setName({
-    //         firstName: e.target.value,
-    //         lastName: e.target.value
-    //     });
-    // }
+    const handleSubmit = (e) => {
+        alert(`${name.firstName} ${name.lastName}`);
+        e.preventDefault();
+    }
 
     return (
         <div>
             Hook Object
-            <form>
+            <form onSubmit={handleSubmit}>
                 <input type="text" value={name.firstName} onChange={e => {setName({...name, firstName: e.target.value})}}></input>
                 <input type="text" value={name.lastName} onChange={e => {setName({...name, lastName: e.target.value})}}></input>
+                <button>Click Me</button>
             </form>
             {name.firstName}
             {name.lastName}

@@ -20,6 +20,7 @@ import Counter from './components/Counter';
 import HookCounter from './components/HookCounter';
 import FCounter from './components/FCounter';
 import HookObject from './components/HookObject';
+import HookArray from './components/HookArray';
 
 // class component
 class App extends React.Component {
@@ -59,8 +60,9 @@ class App extends React.Component {
 
         <Counter />
         <FCounter />
-        <HookCounter />*/}
-        <HookObject />
+        <HookCounter />
+        <HookObject />*/}
+        <HookArray />
       
       </div>
 
