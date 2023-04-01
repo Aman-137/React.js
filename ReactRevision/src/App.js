@@ -23,6 +23,8 @@ import HookObject from './components/HookObject';
 import HookArray from './components/HookArray';
 import ClassCounterOne from './components/ClassCounterOne';
 import FunctionCounterOne from './components/FunctionCounterOne';
+import ClassMouse from './components/ClassMouse';
+import FunctionMouse from './components/FunctionMouse';
 
 // class component
 class App extends React.Component {
@@ -64,10 +66,13 @@ class App extends React.Component {
         <FCounter />
         <HookCounter />
         <HookObject />
-        <HookArray />*/}
+        <HookArray />
 
         <ClassCounterOne />
-        <FunctionCounterOne />
+        <FunctionCounterOne />*/}
+
+        <ClassMouse />
+        <FunctionMouse />
         
       </div>
 
