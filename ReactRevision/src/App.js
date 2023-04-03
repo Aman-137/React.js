@@ -26,6 +26,8 @@ import FunctionCounterOne from './components/FunctionCounterOne';
 import ClassMouse from './components/ClassMouse';
 import FunctionMouse from './components/FunctionMouse';
 import A from './components/A';
+import Vikas from './components/Vikas';
+import Aman from './components/Aman';
 
 
 // class component
@@ -74,9 +76,12 @@ class App extends React.Component {
         <FunctionCounterOne />
 
         <ClassMouse />
-        <FunctionMouse />*/}
+        <FunctionMouse />
 
-        <A />
+        <A />*/}
+
+        <Aman />
+        <Vikas />
         
       </div>
 
