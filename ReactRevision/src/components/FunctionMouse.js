@@ -11,8 +11,8 @@ const FunctionMouse = () => {
     }
 
     useEffect(() => {
-        console.log("Sunny");
-        window.addEventListener("mousemove", logMousePosition);
+        console.log("useEffect");
+        window.addEventListener('mousemove', logMousePosition);
     },[])
 
     return (

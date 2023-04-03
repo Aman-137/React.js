@@ -19,7 +19,7 @@ class ClassMouse extends Component {
     }    
 
     componentDidMount() {
-        console.log("Aman");
+        console.log("compDidMount");
         window.addEventListener('mousemove', this.logMousePosition);
     }
     
