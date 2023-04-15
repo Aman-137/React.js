@@ -4,6 +4,8 @@ import UseState from "./components/UseState";
 import UseMemo from "./components/UseMemo";
 import UseRef from "./components/UseRef";
 import UseContext from "./components/UseContext";
+import UseReducer from "./components/UseReducer";
+import UseReducer1 from "./components/UseReducer1";
 
 function App() {
 
@@ -16,8 +18,10 @@ function App() {
       <h3>UseMemo Hook</h3>
       <UseMemo /> 
       <h3>UseRef Hook</h3>
-      <UseRef />*/}
-      <UseContext />
+      <UseRef />
+      <UseContext />*/}
+      <UseReducer />
+      <UseReducer1 />
     </>
   );
 }
