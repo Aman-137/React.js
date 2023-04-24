@@ -8,6 +8,8 @@ import UseReducer from "./components/UseReducer";
 import UseReducer1 from "./components/UseReducer1";
 import UseCallback from "./components/UseCallback";
 import CustomHooks from "./components/CustomHooks";
+import UseTransition from "./components/UseTransition";
+import UseDeferredValue from "./components/UseDeferredValue";
 
 function App() {
 
@@ -25,9 +27,12 @@ function App() {
       <UseReducer />
       <UseReducer1 />
 
-      <UseCallback />*/}
+      <UseCallback />
 
       <CustomHooks />
+
+      <UseTransition />*/}
+      <UseDeferredValue />
     </>
   );
 }
