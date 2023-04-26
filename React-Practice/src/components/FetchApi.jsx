@@ -1,42 +1,33 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const FetchApi = () => {
 
-    const [posts, setPosts] = useState({
-        title: '',
-        body: ''
-    })
+    const [posts, setPosts] = useState([])
 
-    
-    const handleChange = (e) => {
-        setPosts({...posts, [e.target.name]: e.target.value})
-    }
-
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        axios.post('https://jsonplaceholder.typicode.com/posts', {posts})
+    useEffect(() => {
+        axios.post('https://jsonplaceholder.typicode.com/users', {
+            name: 'Aman',
+            email: 'abc@gmail.com'
+        })
             .then(res => {
                 console.log(res)
+                // setPosts(res.data)
             })
             .catch(err => {
                 console.log(err)
             })
-
-
-    }
+    }, [])
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
-                
-                <label>Title</label>
-                <input type='text' name="title" onChange={handleChange} /><br />
-                <label>Body</label>
-                <input type='text' name="body" onChange={handleChange} /><br />
-                
-                <button>Submit</button>
-            </form>
+            <ul>
+                {
+                    posts.map(post => {
+                        return <li key={post.id}>{post.name}</li>
+                    })
+                }
+            </ul>
         </div>
     )
 }
