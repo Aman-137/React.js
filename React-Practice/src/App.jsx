@@ -6,6 +6,7 @@ import DataPost from "./components/DataPost";
 import FetchPost from "./components/FetchPost";
 import DataDisplay from "./components/DataDisplay";
 import CheckDelete from "./components/CheckDelete";
+import DltDataFromArr from "./components/DltDataFromArr";
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
       <FetchPost /> */}
 
       {/* <DataDisplay /> */}
-      <CheckDelete />
+      {/* <CheckDelete /> */}
+      <DltDataFromArr />
     </div>
   );
 };
