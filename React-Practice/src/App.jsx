@@ -7,6 +7,7 @@ import FetchPost from "./components/FetchPost";
 import DataDisplay from "./components/DataDisplay";
 import CheckDelete from "./components/CheckDelete";
 import DltDataFromArr from "./components/DltDataFromArr";
+import CountIncrease from "./components/CountIncrease";
 
 const App = () => {
   return (
@@ -19,7 +20,9 @@ const App = () => {
 
       {/* <DataDisplay /> */}
       {/* <CheckDelete /> */}
-      <DltDataFromArr />
+      {/* <DltDataFromArr /> */}
+
+      <CountIncrease />
     </div>
   );
 };
