@@ -8,6 +8,7 @@ import DataDisplay from "./components/DataDisplay";
 import CheckDelete from "./components/CheckDelete";
 import DltDataFromArr from "./components/DltDataFromArr";
 import CountIncrease from "./components/CountIncrease";
+import AddDeleteItems from "./components/AddDeleteItems";
 
 const App = () => {
   return (
@@ -22,7 +23,9 @@ const App = () => {
       {/* <CheckDelete /> */}
       {/* <DltDataFromArr /> */}
 
-      <CountIncrease />
+      {/* <CountIncrease /> */}
+
+      <AddDeleteItems />
     </div>
   );
 };
