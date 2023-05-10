@@ -9,6 +9,7 @@ import CheckDelete from "./components/CheckDelete";
 import DltDataFromArr from "./components/DltDataFromArr";
 import CountIncrease from "./components/CountIncrease";
 import AddDeleteItems from "./components/AddDeleteItems";
+import AxiosFetchAPI from "./components/AxiosFetchAPI";
 
 const App = () => {
   return (
@@ -19,13 +20,14 @@ const App = () => {
       <DataPost />
       <FetchPost /> */}
 
-      {/* <DataDisplay /> */}
+      <DataDisplay />
       {/* <CheckDelete /> */}
       {/* <DltDataFromArr /> */}
 
       {/* <CountIncrease /> */}
 
-      <AddDeleteItems />
+      {/* <AddDeleteItems /> */}
+      {/* <AxiosFetchAPI /> */}
     </div>
   );
 };
