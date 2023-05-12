@@ -10,6 +10,7 @@ import DltDataFromArr from "./components/DltDataFromArr";
 import CountIncrease from "./components/CountIncrease";
 import AddDeleteItems from "./components/AddDeleteItems";
 import AxiosFetchAPI from "./components/AxiosFetchAPI";
+import DropDownChallenge from "./components/DropDownChallenge";
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
       <DataPost />
       <FetchPost /> */}
 
-      <DataDisplay />
+      {/* <DataDisplay /> */}
       {/* <CheckDelete /> */}
       {/* <DltDataFromArr /> */}
 
@@ -28,6 +29,8 @@ const App = () => {
 
       {/* <AddDeleteItems /> */}
       {/* <AxiosFetchAPI /> */}
+
+      <DropDownChallenge />
     </div>
   );
 };
