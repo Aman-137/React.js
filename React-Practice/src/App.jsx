@@ -11,6 +11,7 @@ import CountIncrease from "./components/CountIncrease";
 import AddDeleteItems from "./components/AddDeleteItems";
 import AxiosFetchAPI from "./components/AxiosFetchAPI";
 import DropDownChallenge from "./components/DropDownChallenge";
+import GameSelectChallenge from "./components/GameSelectChallenge";
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
       {/* <AddDeleteItems /> */}
       {/* <AxiosFetchAPI /> */}
 
-      <DropDownChallenge />
+      {/* <DropDownChallenge /> */}
+      <GameSelectChallenge />
     </div>
   );
 };
