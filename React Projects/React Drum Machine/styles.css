@@ -1,5 +1,4 @@
 
-
 * {
   margin: 0;
 }
@@ -31,7 +30,7 @@ h2 {
   grid-template-columns: 1fr;
   background-image: linear-gradient(
 -225deg
-, #755dd5 35%, #b9deff 100%);
+, #96f2eb 35%, #b9deff 100%);
 }
 
 .keyboard {
@@ -84,4 +83,11 @@ h2 {
   padding: 8px 10px;
   border-radius: 5px;
   background-color: #ffffff;
+}
+.control button:hover {background-color: #8c71f0}
+
+.control button:active {
+  background-color: #8c71f0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
